@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/pag4.css">
+</head>
+<body>
+    <div class="padre">
+        <header class="cabeza">
+            <h1>PAGINA DE YAMIL</h1>
+        </header>
+        <div class="hijo">
+            <nav class="menu">
+            <h2>MENU</h2>
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="../pags/pag1.html">pag1.HTML</a></li>
+                <li><a href="../pags/pag2.html">pag2.CSS</a></li>
+                <li><a href="../pags/pag3.html">pag3.JAVASCRIPT (Form)</a></li>
+                <li><a href="../pags/pag4.html">pag4.JAVASCRIPT (Base)</a></li>
+                <li><a href="../pags/pag5.html">pag5.JAVASCRIPT (Clima)</a></li>
+            </ul>
+            </nav>
+            <section class="principal">
+            <h2>CONVERSOR DE BASES</h2>
+            <div class="cont">
+                <div class="conversor-container">
+                    <table class="tabla-conversor">
+                        <tr>
+                            <td><label>BASE ORIGEN:</label></td>
+                            <td><input type="number" id="baseOrigen" min="2" max="36" placeholder="Ej. 10"></td>
+                        </tr>
+                        <tr>
+                            <td><label>NÚMERO:</label></td>
+                            <td><input type="text" id="numeroInput" placeholder="Ej. 150"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Base destino:</label></td>
+                            <td><input type="number" id="baseDestino" min="2" max="36" placeholder="Ej. 2"></td>
+                        </tr>
+                        <tr>
+                            <td><button id="btnCalc">CALC</button></td>
+                            <td><div id="resultadoBox" class="resultado-pantalla"></div></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <script src="../js/comb.js"></script>
+        </div>
+        <footer>
+            <p>Diseñado por: Yamil  David Morales Limachi</p>
+        </footer>
+    </div>
+</body>
+</html>

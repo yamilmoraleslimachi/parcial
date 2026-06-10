@@ -1,0 +1,55 @@
+.clima {
+    max-width: 500px;
+    margin: 15px auto;
+    background-color: #22579c;
+    border: 3px solid #000000;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.clima h1 {
+    margin: 0 0 15px 0;
+    font-size: 1.5rem;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.tabla-clima {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-clima td {
+    padding: 5px;
+}
+
+.tabla-clima input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.tabla-clima button {
+    background-color: #A9A9A9;
+    color: #000;
+    border: 1px solid #000;
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#resultado {
+    margin-top: 15px;
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
