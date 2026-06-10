@@ -3,69 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto</title>
+    <title>Platos Tipicos</title>
     <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/pag3.css">
 </head>
 <body>
     <div class="padre">
-        <header class="cabeza">
+        <header class="bloque">
             <h1>PAGINA DE YAMIL</h1>
         </header>
-        <div class="hijo">
-            <nav class="menu">
-            <h2>MENU</h2>
-            <ul>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="../pags/pag1.html">pag1.HTML</a></li>
-                <li><a href="../pags/pag2.html">pag2.CSS</a></li>
-                <li><a href="../pags/pag3.html">pag3.JAVASCRIPT (Form)</a></li>
-                <li><a href="../pags/pag4.html">pag4.JAVASCRIPT (Base)</a></li>
-                <li><a href="../pags/pag5.html">pag5.JAVASCRIPT (Clima)</a></li>
-            </ul>
-            </nav>
-            <section class="principal">
-            <h2>FORMULARIO</h2>
-            <div class="cont">
-                <div class="fb-form-container">
-                    <div class="fb-header">
-                        <h3>Crear cuenta nueva</h3>
-                    </div>
-                    <form id="registroForm">
-                        <div class="form-fila-doble">
-                            <input type="text" id="nombre" placeholder="Nombre">
-                            <input type="text" id="apellido" placeholder="Apellido">
-                        </div>
-                        <div class="form-grupo">
-                            <input type="tel" id="celular" placeholder="Número de celular">
-                        </div>
-                        <div class="form-grupo">
-                            <input type="email" id="correo" placeholder="Correo electrónico">
-                        </div>
-                        <div class="form-grupo">
-                            <input type="password" id="password" placeholder="Contraseña nueva">
-                        </div>
-                        <div class="label-seccion">Fecha de nacimiento</div>
-                        <div class="form-grupo">
-                            <input type="date" id="fechaNacimiento">
-                        </div>
-                        <div class="label-seccion">Género</div>
-                        <div class="genero-row">
-                            <label><input type="radio" name="genero" value="Mujer"> Mujer</label>
-                            <label><input type="radio" name="genero" value="Hombre"> Hombre</label>
-                            <label><input type="radio" name="genero" value="Personalizado"> Personalizado</label>
-                        </div>
-                        <div style="text-align: center;">
-                            <button type="submit" id="btnRegistrar" class="btn-fb">Registrarte</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            </section>
-        <script src="../js/form.js"></script>
+        <div class="bloque">
+            <img src="../imgs/ban.jfif" alt="">
         </div>
-        <footer>
-            <p>Diseñado por: Yamil  David Morales Limachi</p>
+        <section class="bloque">
+            <div class="cont">
+                <h1>GASTRONOMIA PACEÑA</h1>
+                <p>Tradición — Sabor — Identidad</p>
+            </div>
+
+            <br>
+            <p>La gastronomía de La Paz se caracteriza por sus sabores intensos, el uso de ingredientes andinos nativos como la papa, el chuño y el maíz, y por platos contundentes diseñados para el clima del altiplano.</p>
+
+            <table>
+                <tr>
+                    <td>
+                        <h3>Chairo Paceño</h3>
+                        <p>Es una sopa espesa tradicional elaborada con chuño molido, mote de maíz, trigo, carne de res, cordero, chalona (carne deshidratada) y sazonada con hierba buena y huacataya.</p>
+                    </td>
+                    <td>
+                        <img src="../imgs/1.jfif" alt="Chairo Paceño">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Plato Paceño</h3>
+                        <p>Un plato clásico e histórico que consiste en una combinación simple pero deliciosa de choclo entero cocido, papas, habas cocidas y queso criollo frito.</p>
+                    </td>
+                    <td>
+                        <img src="../imgs/2.jfif" alt="Plato Paceño">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Fricasé Paceño</h3>
+                        <p>Un caldo picante y reconfortante hecho a base de carne de cerdo tierna, sazonado fuertemente con ají amarillo, ajo, comino, y servido con grandes granos de mote de maíz y chuño entero.</p>
+                    </td>
+                    <td>
+                        <img src="../imgs/3.jfif" alt="Fricasé">
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <footer class="bloque">
+            <h2>MENU:</h2>
+            <ul class="enlaces">
+                <li><a href="../index.html">BIENVENIDA</a></li>
+                <li><a href="../pags/pag1.html">HISTORIA</a></li>
+                <li><a href="../pags/pag2.html">PERSONAJES</a></li>
+                <li><a href="../pags/pag3.html">PLATOS TIPICOS</a></li>
+                <li><a href="../pags/pag4.html">DANZAS</a></li>
+            </ul>
         </footer>
+
     </div>
 </body>
 </html>

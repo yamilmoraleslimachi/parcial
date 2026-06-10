@@ -1,57 +1,61 @@
-.conversor-container {
-    max-width: 450px;
-    margin: 15px auto;
-    background-color: #28b0cb;
-    border: 3px solid #000000;
-    padding: 15px;
-    box-sizing: border-box;
+p {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
 }
 
-.tabla-conversor {
+.cont {
+    text-align: center;
     width: 100%;
-    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
-.tabla-conversor td {
-    padding: 8px;
+.cont h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.cont p {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #000000;
+}
+
+.grupo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.grupo label {
+    display: block;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    color: #000000;
+    margin-bottom: 5px;
 }
 
-.tabla-conversor td:first-child {
-    text-transform: uppercase;
-    color: #000000;
-    width: 40%;
-}
-
-.tabla-conversor input {
+.grupo input, .grupo select {
     width: 100%;
-    padding: 6px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
+    padding: 8px;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border: 1px solid #000000;
 }
 
-#btnCalc {
-    background-color: #A9A9A9;
-    color: #000;
-    border: 1px solid #000;
-    padding: 6px 12px;
-    cursor: pointer;
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: grey;
+    color: #000000;
+    border: 2px solid #000000;
     font-weight: bold;
-    width: 100%;
-}
-
-.resultado-pantalla {
-    background-color: #ffffff;
-    height: 30px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 1.1rem;
-    color: #000;
-    border: 1px solid #000;
+    cursor: pointer;
 }

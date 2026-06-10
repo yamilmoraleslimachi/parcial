@@ -1,58 +1,48 @@
-.fb-form-container {
-    max-width: 400px;
-    margin: 10px auto;
-    background-color: #FFFF00;
-    border: 3px solid #00008B;
-    padding: 15px;
-    box-sizing: border-box;
-}
-.fb-header h3 { margin: 0; font-size: 1.5rem; }
-.fb-header p { margin: 5px 0 15px 0; font-size: 0.9rem; }
-.form-grupo {
-    margin-bottom: 10px;
-}
-.form-fila-doble {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
-}
-.fb-form-container input[type="text"],
-.fb-form-container input[type="email"],
-.fb-form-container input[type="password"],
-.fb-form-container input[type="tel"],
-.fb-form-container input[type="date"] {
+.cont {
+    text-align: center;
     width: 100%;
-    padding: 8px;
-    font-size: 0.95rem;
-    box-sizing: border-box;
+    margin-bottom: 20px;
 }
-.label-seccion {
-    font-size: 0.9rem;
+
+.cont h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.cont p {
+    text-align: center;
     font-weight: bold;
-    margin-top: 10px;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table td {
+    padding: 15px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+table h3 {
+    color: red;
+    font-size: 1.3rem;
+    margin-top: 0;
     margin-bottom: 5px;
+    text-transform: uppercase;
 }
-.genero-row {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
+
+table p {
+    margin: 0;
 }
-.genero-row label {
-    flex: 1;
-    padding: 8px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.95rem;
-}
-.btn-fb {
-    background-color: #008000;
-    color: white;
-    font-size: 1.1rem;
-    font-weight: bold;
-    padding: 10px 30px;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
+
+table img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #000000;
 }
